@@ -1,0 +1,553 @@
+{
+  "settings": {
+    "name": "WebMaster Site Builder",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#f39c12",
+        "buttonsColor": "#000000",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Arvo",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 15,
+    "versionPublish": "3.12.1",
+    "snow": "",
+    "mcShopcart": {
+      "email": "icreativecrum@gmail.com"
+    }
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#2c3e50",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "#top",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "website-theme",
+              "family": "MobiriseIcons",
+              "link": "#top",
+              "size": 0,
+              "newWindow": false,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Web Master</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header1-1\">Create New Site</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Features</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#pricing-table2-3\">Plans</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#table1-4\">Extensions</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#accordion-block-8\">Elements</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#93a3a7",
+              "font-style": "italic"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-1",
+          "_params": {
+            "buttonAlign": "right",
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/texture_colorful_shape_pattern_109856_1366x768-2000x1124.jpg",
+            "bgColor": "#333333",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "1",
+            "overlayColor": "#2c3e50",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "Web Master&nbsp;",
+          "text": "Awesome sites with no effort! We do all the work for you and all you have to do it sit back, relax and chill.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-text\" href=\"index.html#pricing-table2-3\" data-toolbar=\"-mbrBtnMove\">New site</a>",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
+        },
+        {
+          "_styles": {
+            ".mbr-section__container .mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section__container .mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table2",
+          "_anchor": "pricing-table2-3",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "@THEME_PATH@/components/_images/pricing-table/pricing-table-bg.jpg",
+            "bgColor": "#bbbbbb",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true,
+            "firstType": "default",
+            "showButtons": true,
+            "secondType": "popular",
+            "thirdType": "default",
+            "fourthType": "default"
+          },
+          "title": "Step 1: Choose plan and pay",
+          "subtitle": " Don't worry, you can always change later for no extra cost",
+          "label1": "POPULAR",
+          "title1": "BASIC PLAN",
+          "currency1": "$",
+          "price1": "5",
+          "period1": "/site",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Unlimited</b> Storage</li><li class=\"list-group-item\"><b>20</b>&nbsp;Purchases per month</li><li class=\"list-group-item\"><b>2</b>&nbsp;domain extension options</li><li class=\"list-group-item\"><b>10</b> elements maximum</li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=5&amp;item_name=Basic+Plan&amp;currency_code=AUD\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">BUY NOW</a>",
+          "label2": "POPULAR",
+          "title2": "PERSONAL PLAN",
+          "currency2": "$",
+          "price2": "10",
+          "period2": "/site",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Unlimited</b> Storage</li><li class=\"list-group-item\"><b>40</b>&nbsp;Purchases per month</li><li class=\"list-group-item\"><b>3</b>&nbsp;domain extension options</li><li class=\"list-group-item\"><b>15</b> elements maximum</li></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=10&amp;item_name=Personal+Plan&amp;currency_code=AUD\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">BUY NOW</a>",
+          "label3": "POPULAR",
+          "title3": "PREMIUM PLAN",
+          "currency3": "$",
+          "price3": "20",
+          "period3": "/site",
+          "list3": "<ul class=\"list-group list-group-flush\"><p></p><li class=\"list-group-item\"><b>Unlimited</b> Storage</li><li class=\"list-group-item\"><b>100 </b>Purchases per month</li><b>5</b> domain extension options<p></p><p><b>30</b> elements maximum</p></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=20&amp;item_name=Premium+plan&amp;currency_code=AUD\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">BUY NOW</a>",
+          "label4": "POPULAR",
+          "title4": "ULTIMATE PLAN",
+          "currency4": "$",
+          "price4": "35",
+          "period4": "/site",
+          "list4": "<ul class=\"list-group list-group-flush\"><p><p></p><li class=\"list-group-item\"><b>Unlimited</b> Storage</li><li class=\"list-group-item\"><b>Unlimited</b>&nbsp;Purchases</li><b>5</b> domain extension options</p><p><p></p><p><b>Unlimited</b> elements</p></p></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;amount=35&amp;item_name=Ultimate+Plan&amp;currency_code=AUD\" class=\"btn btn-primary-outline btn-primary\" data-toolbar=\"-mbrBtnMove\">BUY NOW</a>"
+        },
+        {
+          "_styles": {
+            "th": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "table1",
+          "_anchor": "table1-4",
+          "_params": {
+            "rowСount": "5",
+            "colCount": "2",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/flight-mountains-sky-flying.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.4,
+            "overlayColor": "#fff",
+            "showTitle": true,
+            "showSearch": false
+          },
+          "title": "Domain extensions",
+          "search": "Search:",
+          "info1": "Showing",
+          "info2": "entries",
+          "info3": "(filtered from",
+          "info4": "total entries)",
+          "table": "<thead><tr><th>Name</th><th>Available on</th></tr></thead><tbody><tr><td>www.example.tk</td><td>All Plans</td></tr><tr><td>www.example.ga</td><td>All Plans</td></tr><tr><td>www.example.ml</td><td>Personal plan and above</td></tr><tr><td>www.example.cf</td><td>Premium and ultimate</td></tr><tr><td>www.example.gq</td><td>Premium and ultimate</td></tr></tbody>"
+        },
+        {
+          "_styles": {},
+          "text": "Develop fully responsive, mobile-ready websites",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "intro3",
+          "_anchor": "intro3-7",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/06.jpg",
+            "bgColor": "#2980b9",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.9",
+            "overlayColor": "#2980b9",
+            "showTitle": true,
+            "columns": 2
+          },
+          "title": "Step 2: Create site",
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-extProgressBar4",
+              "linkInNewWindow": false,
+              "name": "mail",
+              "family": "socicon",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 60,
+              "color": "#fff"
+            }
+          },
+          "subtitle1": "have you got the email?",
+          "caption1": "After you purchased, you should have gotten an email with your site code in it. Remember, don't share your code with anyone else. After you submit your site then please send us the files by responding to the email you got with a zip folder.<br>Please name the files using the following format &nbsp;'Element 1 - ID:1 - Button'. Element one meaning first element on the site, ID's for the elements can be found below and button meaning the button in t<span style=\"font-size: 1rem; line-height: 1.85em;\">he element.</span><br>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-extProgressBar4",
+              "linkInNewWindow": false,
+              "name": "av-fast-forward",
+              "family": "Material-Design-Icons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 60,
+              "color": "#fff"
+            }
+          },
+          "subtitle2": "Super quick service&nbsp;",
+          "caption2": "Depending on the complexity of your site, it will take at least 24 hours to create. If you dont recieve your site within 168 hours or a week then please contact us.",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-extProgressBar4",
+              "name": "desktop",
+              "link": "https://mobirise.com",
+              "size": 60,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "subtitle3": "BEAUTIFUL MOBILE WEBSITES",
+          "caption3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita itaque, dicta delectus accusantium nihil eligendi?",
+          "form": {
+            "action": "icreativecrum@gmail.com",
+            "alerts": {
+              "success": "Thanks for creating your site with us. No more action is required. We will contact you when done"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Site code*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Site name*"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Explain your site*"
+              }
+            }
+          },
+          "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Create</a>",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
+        },
+        {
+          "_styles": {
+            ".panel-body": {
+              "padding": "15px"
+            },
+            ".panel-group": {
+              "margin-bottom": "20px"
+            },
+            ".panel": {
+              "margin-bottom": "20px",
+              "background-color": "#fff",
+              "border": "1px solid transparent",
+              "border-radius": "4px",
+              "-webkit-box-shadow": "0 1px 1px rgba(0, 0, 0, .05)",
+              "box-shadow": "0px 1px 1px rgba(0,0,0,0.05)"
+            },
+            ".panel-default": {
+              "border-color": "#ddd"
+            },
+            ".panel-group .panel": {
+              "margin-bottom": "0px",
+              "border-radius": "4px"
+            },
+            ".panel-group .panel + .panel": {
+              "margin-top": "5px"
+            },
+            ".panel-heading": {
+              "padding": "10px 15px",
+              "border-bottom": "1px solid transparent",
+              "border-top-left-radius": "3px",
+              "border-top-right-radius": "3px"
+            },
+            ".panel-group .panel-heading": {
+              "border-bottom": "0"
+            },
+            ".panel-default > .panel-heading": {
+              "color": "#333",
+              "background-color": "#f5f5f5",
+              "border-color": "#ddd"
+            },
+            ".collapse": {
+              "display": "n1"
+            },
+            ".panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group": {
+              "border-top": "1px solid #ddd"
+            },
+            ".panel-default > .panel-heading + .panel-collapse > .panel-body": {
+              "border-top-color": "#ddd"
+            },
+            ".panel-title": {
+              "margin-top": "0px",
+              "margin-bottom": "0px",
+              "font-size": "16px",
+              "color": "inherit"
+            },
+            "[role=\"button\"]": {
+              "cursor": "pointer"
+            },
+            ".panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a": {
+              "color": "inherit"
+            }
+          },
+          "alias": "accordion",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "accordion-block",
+          "_params": {
+            "nbAccordion": "10",
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5,
+            "accordions": [
+              {
+                "active": true,
+                "heading": "heading1",
+                "collapse": "collapse1",
+                "href": "#collapse1",
+                "title": "(+) Header &nbsp;ID:1<br>",
+                "text": "<b>Includes:</b><br>&nbsp;<br>Company logo<br>Company name<br>Pages<br>Button on right hand side"
+              },
+              {
+                "active": true,
+                "heading": "heading2",
+                "collapse": "collapse2",
+                "href": "#collapse2",
+                "title": "(+) Landing element &nbsp;ID:2",
+                "text": "<b>Includes:</b><br><b>&nbsp;</b><br>Picture in background<br>Title<br>Description<br>Button<br>Downwards arrow"
+              },
+              {
+                "active": true,
+                "heading": "heading3",
+                "collapse": "collapse3",
+                "href": "#collapse3",
+                "title": "(+) Single Testemonials &nbsp;ID:3",
+                "text": "<b>Includes:</b><br><b>&nbsp;</b><br>One single comment provided<br>Title<br>Subtitle above<br>Picture underneath<br><br>"
+              },
+              {
+                "active": true,
+                "heading": "heading4",
+                "collapse": "collapse4",
+                "href": "#collapse4",
+                "title": "(+) Title with typed effect &nbsp;ID:4",
+                "text": "<b>Includes:</b><br><br><br>Sentence which changes last word 3 times<br>Description<br>Button"
+              },
+              {
+                "active": true,
+                "heading": "heading5",
+                "collapse": "collapse5",
+                "href": "#collapse5",
+                "title": "(+) Features list &nbsp;ID:5",
+                "text": "3 items<br>3 buttons<br>3 titles<br>3 descriptions<br>3 icons<br>Background"
+              },
+              {
+                "active": true,
+                "heading": "heading6",
+                "collapse": "collapse6",
+                "href": "#collapse6",
+                "title": "(+) Timeline block &nbsp;ID:6",
+                "text": "Shows 1-12 events<br>Title<br>Subtitle"
+              },
+              {
+                "active": true,
+                "heading": "heading7",
+                "collapse": "collapse7",
+                "href": "#collapse7",
+                "title": "(+) Article &nbsp;ID:7",
+                "text": "Picture on left<br>Title under picture<br>Button on left<br>Description on left"
+              },
+              {
+                "active": true,
+                "heading": "heading8",
+                "collapse": "collapse8",
+                "href": "#collapse8",
+                "title": "(+) Contact Form &nbsp;ID:8",
+                "text": "Choose what you want:<br>Phone number is optional<br>Name is optional<br>Email is optional<br><br>All can be renamed<br>Success message can be customised"
+              },
+              {
+                "active": true,
+                "heading": "heading9",
+                "collapse": "collapse9",
+                "href": "#collapse9",
+                "title": "(+) Subscribe to mailing list &nbsp;ID:9",
+                "text": "Title<br>Description<br>Email text slot"
+              },
+              {
+                "active": true,
+                "heading": "heading10",
+                "collapse": "collapse10",
+                "href": "#collapse10",
+                "title": "(+) Title with solid background colour &nbsp;ID:10",
+                "text": "Description<br>Title"
+              }
+            ],
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/flight-mountains-sky-flying.jpg",
+            "bgColor": "#3366ff",
+            "bgColorRadio": false,
+            "showTitle": true
+          },
+          "_anchor": "accordion-block-8",
+          "title": "Elements available"
+        }
+      ]
+    }
+  }
+}
